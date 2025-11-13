@@ -1,6 +1,79 @@
-.card {
+    .card {
     background-color: #3498db; 
     color: black; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .sunset-bg {
+      background: linear-gradient(90deg, #f27121, #e94057, #8a2387);
+    }
+
+    header {
+    background: #222; /* makes it solid black */
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #f27121;
+
+    }
+
+    header p {
+      font-size: 1.5rem;
+      max-width: 700px;
+      color: #f27121
+    }
+
+    section {
+      padding-top: 3rem;
+    }
+
+    h2 {
+      color: #e94057;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .card-custom {
+      border: none;
+      transition: transform 0.3s ease;
+    }
+
+    .card-custom:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #f27121;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
